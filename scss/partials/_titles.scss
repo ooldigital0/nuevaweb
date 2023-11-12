@@ -1,0 +1,28 @@
+
+.informes-title,
+.diseno-impulso__title,
+.sesiones-title,
+.tzolkin-title,
+.d-humano__title,
+.astrologias-title,
+.guia-lunar__title {
+  font-size: 4.5vh;
+  font-family: $font-tertiary;
+  font-style: normal;
+  font-weight: 400;
+  color: font-color-primary;
+  text-align: center;
+  margin-top: 3vh;
+  line-height: 6.5vh;
+}
+
+.guia-ayurveda__title {
+  font-size: 4.5vh;
+  font-family: $font-tertiary;
+  font-style: normal;
+  font-weight: 400;
+  color: font-color-primary;
+  text-align: center;
+  margin-top: 5vh;
+  line-height: 6.5vh;
+}

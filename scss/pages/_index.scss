@@ -1,0 +1,303 @@
+
+.logo-ingresar {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .titulo-ingresar {
+    font-size: 2.9vh;
+    line-height: 5.4vh;
+    font-weight: lighter;
+    font-family: $font-secondary;
+    color: #fff;
+  }
+  
+  .boton-ingresar {
+    font-size: 3vh;
+    margin-top: 4vh;
+  }
+  
+  .boton-ingresar a {
+    color: white;
+    text-decoration: none;
+    font-family: $font-tertiary;
+    background-color: $bg-color-primary;
+    padding: 0.731rem 1.9531rem;
+  }
+  
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0;
+  }
+  .video-container {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .video-container video {
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-container .content {
+    text-align: center;
+    display: block;
+  }
+  .video-container .content {
+    width: 425px;
+  }
+  
+  .titulo-ingresar,
+  .boton-ingresar {
+    color: #fff;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.9em;
+    font-weight: lighter;
+    font-family: $font-secondary;
+  }
+  
+  .logo-ingresar {
+    position: absolute;
+    top: 33.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 315px;
+  }
+  .video-container .content {
+    color: white;
+    padding: 0 6rem;
+    font-family: $font-tertiary;
+    text-decoration: none;
+  }
+  .boton-ingresar,
+  .boton-ingresar a {
+    top: 73%;
+    left: 50%;
+    border: none;
+    border-radius: 120px;
+    font-family: $font-tertiary;
+    font-size: 2em;
+    padding: 1.0969vw 0.731vw 1.9531vh 1.3021vh;
+    background-color: $bg-color-primary;
+    transition: filter 0.3s;
+  }
+  
+  .logo-ingresar {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    width: 44vh;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .titulo-ingresar {
+    width: calc(100vw - 40vw);
+    font-size: 2.9vh;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 4.5vh;
+    top: 58%;
+    left: 50%;
+    line-height: 5.4vh;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+  }
+  
+  .boton-ingresar,
+  .boton-ingresar a {
+    margin-top: 4.5vh;
+    font-size: 3vh;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    padding: 3.5vh 5.2vh;
+    top: 70vh;
+  }
+// MEDIA QUERIES
+
+  @media screen and (max-aspect-ratio: 4/3) {
+    .logo-ingresar {
+      width: 35vw;
+      top: 31vh;
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10vw;
+    }
+  
+    .titulo-ingresar {
+      text-align: center;
+      line-height: 7vh;
+      margin-bottom: 10vh;
+      top: 58vh;
+    }
+  
+    .boton-ingresar,
+    .boton-ingresar a {
+      font-size: 3vh;
+      padding: 2.5vh 4vw;
+      top: 71vh;
+    }
+  }
+
+  @media screen and (max-aspect-ratio: 1/1) {
+    .logo-ingresar {
+      width: 40vw;
+      top: 28vh;
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10vw;
+    }
+  
+    .titulo-ingresar {
+      text-align: center;
+      line-height: 6vh;
+      margin-bottom: 10vh;
+      top: 55vh;
+    }
+  
+    .boton-ingresar,
+    .boton-ingresar a {
+      font-size: 3vh;
+      padding: 2vh 5vw;
+    }
+  }
+  
+  @media screen and (max-aspect-ratio: 5/6) {
+    .logo-ingresar {
+      width: 42vw;
+      top: 26vh;
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10vw;
+    }
+  
+    .titulo-ingresar {
+      text-align: center;
+      line-height: 5vh;
+      margin-bottom: 10vh;
+      top: 53vh;
+    }
+  
+    .boton-ingresar,
+    .boton-ingresar a {
+      font-size: 3vh;
+      padding: 2vh 5vw;
+      top: 70vh;
+    }
+  }
+  @media screen and (max-aspect-ratio: 4/5) {
+    .logo-ingresar {
+      width: 45vw;
+      top: 26vh;
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10vw;
+    }
+  
+    .titulo-ingresar {
+      text-align: center;
+      line-height: 5.3vh;
+      margin-bottom: 10vh;
+      top: 53vh;
+    }
+  
+    .boton-ingresar,
+    .boton-ingresar a {
+      font-size: 3vh;
+      padding: 2vh 6vw;
+    }
+  }
+  
+  @media screen and (max-aspect-ratio: 3/5) {
+    .logo-ingresar {
+      width: 53vw;
+      top: 23vh;
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10vw;
+    }
+  
+    .titulo-ingresar {
+      text-align: center;
+      line-height: 4.8vh;
+      margin-bottom: 10vh;
+      top: 48.6vh;
+      font-size: 2.6vh;
+    }
+  
+    .boton-ingresar,
+    .boton-ingresar a {
+      font-size: 3vh;
+      padding: 2vh 5vw;
+      top: 68.5vh;
+      font-size: 2.8vh;
+    }
+  }
+  
+  .boton-ingresar:hover {
+    filter: brightness(0.9);
+  }

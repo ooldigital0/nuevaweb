@@ -1,0 +1,29 @@
+/* normalize */
+*,
+*::after,
+*::before {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* globals */
+html {
+    font-size: 62.5%;
+    width: 100vw;
+
+}
+body {
+    display: block;
+    min-height: 100vh;
+    width: 100vw;
+    align-self: center;
+    background-color: text-color-secondary;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0; 
+    width: 100vw; 
+    min-height: 100vh
+}

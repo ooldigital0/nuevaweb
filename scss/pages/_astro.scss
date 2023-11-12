@@ -1,0 +1,67 @@
+
+.containerdts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  
+  .div-astro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  
+  .astro {
+    width: 38vw;
+  }
+  .astrologias {
+    margin-top: 15vh;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-left: 2vw;
+    margin-right: vw;
+  }
+  .astrologias-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5rem;
+  }
+  
+.astrologias-description {
+    margin: 5vh 0;
+    font-size: 3vh;
+    font-family: $font-primary;
+    font-weight: normal;
+    color: #4a4a4a;
+    line-height: 5vh;
+    letter-spacing: 0.01em;
+    padding: 0 vw;
+}
+
+// MEDIA QUERIES
+@media screen and (max-aspect-ratio: 4/3) {
+  
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+}
+
+@media screen and (max-aspect-ratio: 5/6) {
+}
+
+@media screen and (max-aspect-ratio: 4/5) {
+}
+
+@media screen and (max-aspect-ratio: 3/5) {
+}

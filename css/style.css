@@ -1,0 +1,1719 @@
+/* FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora:ital@0;1&display=swap");
+* {
+  font-family: "Cinzel", serif;
+  font-family: "Lora", serif;
+}
+
+@font-face {
+  font-family: "Lora-Regular";
+  src: url(../img/fonts/Lora-Regular.ttf);
+}
+@font-face {
+  font-family: "Lora-Italic";
+  src: url(../img/fonts/Lora-Italic.ttf);
+}
+@font-face {
+  font-family: "Cinzel-Medium";
+  src: url(../img/fonts/Cinzel-Medium.ttf);
+}
+
+/* normalize */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* globals */
+html {
+  font-size: 62.5%;
+  width: 100vw;
+}
+body {
+  display: block;
+  min-height: 100vh;
+  width: 100vw;
+  align-self: center;
+  background-color: #ebede7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+/* INDEX - VIDEO -------------------------------------------------------------------------------------------------- */
+
+.logo-ingresar {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.titulo-ingresar {
+  font-size: 2.9vh;
+  line-height: 5.4vh;
+  font-weight: lighter;
+  font-family: "Lora-Italic";
+  color: #fff;
+}
+
+.boton-ingresar {
+  font-size: 3vh;
+  margin-top: 4vh;
+}
+
+.boton-ingresar a {
+  color: white;
+  text-decoration: none;
+  font-family: "Cinzel-Medium";
+  background-color: #b1b9c6;
+  padding: 0.731rem 1.9531rem;
+}
+
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0;
+}
+.video-container {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.video-container video {
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container .content {
+  text-align: center;
+  display: block;
+}
+.video-container .content {
+  width: 425px;
+}
+
+.titulo-ingresar,
+.boton-ingresar {
+  color: #fff;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.9em;
+  font-weight: lighter;
+  font-family: "Lora-Italic";
+}
+
+.logo-ingresar {
+  position: absolute;
+  top: 33.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 315px;
+}
+.video-container .content {
+  color: white;
+  padding: 0 6rem;
+  font-family: "Cinzel-Medium";
+  text-decoration: none;
+}
+.boton-ingresar,
+.boton-ingresar a {
+  top: 73%;
+  left: 50%;
+  border: none;
+  border-radius: 120px;
+  font-family: "Cinzel-Medium";
+  font-size: 2em;
+  padding: 1.0969vw 0.731vw 1.9531vh 1.3021vh;
+  background-color: #b1b9c6;
+  transition: filter 0.3s;
+}
+
+.logo-ingresar {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  width: 44vh;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.titulo-ingresar {
+  width: calc(100vw - 40vw);
+  font-size: 2.9vh;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 4.5vh;
+  top: 58%;
+  left: 50%;
+  line-height: 5.4vh;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+}
+
+.boton-ingresar,
+.boton-ingresar a {
+  margin-top: 4.5vh;
+  font-size: 3vh;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  padding: 3.5vh 5.2vh;
+  top: 70vh;
+}
+
+/* MEDIA QUERIES INDEX--- */
+@media screen and (max-aspect-ratio: 4/3) {
+  .logo-ingresar {
+    width: 35vw;
+    top: 31vh;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10vw;
+  }
+
+  .titulo-ingresar {
+    text-align: center;
+    line-height: 7vh;
+    margin-bottom: 10vh;
+    top: 58vh;
+  }
+
+  .boton-ingresar,
+  .boton-ingresar a {
+    font-size: 3vh;
+    padding: 2.5vh 4vw;
+    top: 71vh;
+  }
+}
+/* ---HOME-----*/
+/* ---HOME-----*/
+
+@media screen and (max-aspect-ratio: 1/1) {
+  .logo-ingresar {
+    width: 40vw;
+    top: 28vh;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10vw;
+  }
+
+  .titulo-ingresar {
+    text-align: center;
+    line-height: 6vh;
+    margin-bottom: 10vh;
+    top: 55vh;
+  }
+
+  .boton-ingresar,
+  .boton-ingresar a {
+    font-size: 3vh;
+    padding: 2vh 5vw;
+  }
+}
+
+@media screen and (max-aspect-ratio: 5/6) {
+  .logo-ingresar {
+    width: 42vw;
+    top: 26vh;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10vw;
+  }
+
+  .titulo-ingresar {
+    text-align: center;
+    line-height: 5vh;
+    margin-bottom: 10vh;
+    top: 53vh;
+  }
+
+  .boton-ingresar,
+  .boton-ingresar a {
+    font-size: 3vh;
+    padding: 2vh 5vw;
+    top: 70vh;
+  }
+}
+@media screen and (max-aspect-ratio: 4/5) {
+  .logo-ingresar {
+    width: 45vw;
+    top: 26vh;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10vw;
+  }
+
+  .titulo-ingresar {
+    text-align: center;
+    line-height: 5.3vh;
+    margin-bottom: 10vh;
+    top: 53vh;
+  }
+
+  .boton-ingresar,
+  .boton-ingresar a {
+    font-size: 3vh;
+    padding: 2vh 6vw;
+  }
+}
+
+@media screen and (max-aspect-ratio: 3/5) {
+  .logo-ingresar {
+    width: 53vw;
+    top: 23vh;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10vw;
+  }
+
+  .titulo-ingresar {
+    text-align: center;
+    line-height: 4.8vh;
+    margin-bottom: 10vh;
+    top: 48.6vh;
+    font-size: 2.6vh;
+  }
+
+  .boton-ingresar,
+  .boton-ingresar a {
+    font-size: 3vh;
+    padding: 2vh 5vw;
+    top: 68.5vh;
+    font-size: 2.8vh;
+  }
+}
+
+.boton-ingresar:hover {
+  filter: brightness(0.9);
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* MENÚ NAVBAR  /* ------------------------------------------------------------------------------------------------------*/
+
+.menu-container {
+  margin-bottom: 3vh;
+  display: v;
+  align-items: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 0vh 8vw;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo {
+  width: 28vh;
+  margin-bottom: 2vh;
+}
+
+.logo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+}
+
+.navbar {
+  align-items: center;
+  max-width: calc(100% - (8vw + 7vw));
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 2vw;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(6);
+  gap: 3vw;
+  justify-content: center;
+}
+
+.menu-item {
+  font-family: "Lora-Regular";
+  font-size: 2.5vh;
+  text-align: center;
+}
+
+.menu-link {
+  color: #778690;
+  text-align: center;
+}
+
+.menu-link a {
+  text-align: center;
+}
+.menu-link__modifier {
+  color: #000;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  margin-top: 1.3vh;
+  margin-left: 12%;
+  margin-right: 12%;
+  width: calc(100% - 24%);
+}
+
+.line span {
+  border: 0.979267px solid #e7d4b6;
+  width: 100%;
+}
+
+#check {
+  display: none;
+  visibility: hidden;
+}
+
+.waves {
+  top: -100vh;
+  width: 12vh;
+  position: absolute;
+  right: 7vw;
+}
+
+/* MEDIA QUERIES PARA CELULAR------------------------------------------------------------------------------ */
+@media screen and (max-aspect-ratio: 4/3) {
+  body {
+    display: block;
+  }
+  .waves {
+    width: 9vh;
+    position: absolute;
+    top: 4vh;
+    right: 7.5vw;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #696e75;
+    left: -150%;
+    text-align: center;
+    top: 17vh;
+    transition: 0.5s;
+    flex-direction: column;
+  }
+  ul.menu {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+  }
+  .menu li a {
+    color: white;
+    font-size: 3vh;
+    letter-spacing: 0.1em;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+    opacity: 0.9;
+  }
+
+  header {
+    padding-left: 2.5vw;
+  }
+  .logo {
+    top: 3vh;
+    width: 20vh;
+  }
+  .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.3vh;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: calc(100% - 24%);
+  }
+
+  .line span {
+    border: 0.979267px solid #e7d4b6;
+    width: 100%;
+  }
+  .logo {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .line {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  /* FOOTER------------------------------------ */
+  .footertopmargin {
+    height: 10vh;
+  }
+
+  .footer-container {
+    background-color: #606e77;
+    text-align: center;
+    padding: 5vh 0;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer-container p {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: "Lora-Regular";
+    color: white;
+    font-size: 2vh;
+  }
+
+  .social-icon {
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    /* margin-left: 2vw;
+   margin-right: 2vw;  */
+    margin-bottom: 5vh;
+  }
+
+  .social-icon li {
+    align-items: center;
+    display: inline;
+    width: 100px;
+    color: white;
+    font-size: 2.3vh;
+    width: 2%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .social-icon li a {
+    display: inline;
+    color: #b1b9c6;
+    font-size: 1.5em;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+    transition: color 0.3s, box-shadow 0.3s;
+  }
+
+  .social-icon li a:hover {
+    color: #fff;
+    box-shadow: 0 4px 8px #696e75(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+}
+
+@media screen and (max-aspect-ratio: 5/6) {
+}
+
+@media screen and (max-aspect-ratio: 4/5) {
+}
+
+@media screen and (max-aspect-ratio: 3/5) {
+}
+
+/*----------------------------------------------------------------------------- MEDIA QUERIES-------------------------------------------------------------- */
+
+@media screen and (max-width: 2560px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1366) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 320px) {
+}
+
+/* HOME CONTENT /* -------------------------------------------------------------------------------------*/
+
+.main-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15vh 15vw;
+}
+.main-home-container {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.home-title {
+  font-size: 4.5vh;
+  font-family: "Cinzel-Medium";
+  font-style: normal;
+  font-weight: 400;
+  color: #778690;
+  text-align: center;
+  line-height: 6.1vh;
+  letter-spacing: 0.01em;
+  max-width: 60vw;
+}
+
+.subtitle {
+  font-size: 3.5vh;
+  font-family: "Lora-Regular";
+  font-weight: normal;
+  color: #4a4a4a;
+  line-height: 3.1vh;
+  letter-spacing: 0.01em;
+  text-align: center;
+  max-width: 80vw;
+  margin-top: 2.6vh;
+}
+.home-p {
+  font-size: 2.8vh;
+  font-family: "Lora-Regular";
+  font-weight: normal;
+  color: #4a4a4a;
+  line-height: 4vh;
+  letter-spacing: 0.01em;
+  text-align: center;
+  width: 70vw;
+  margin: 5vh 0 0 0;
+}
+
+.info-button {
+  background-color: #778690;
+  border: none;
+  border-radius: 120px;
+  align-self: center;
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+.info-button a {
+  padding: 2rem 5rem;
+  color: #fff;
+  font-family: "Cinzel-Medium";
+  font-size: 1.5em;
+  line-height: 22px;
+}
+
+/* FOOTER ---------------------------------------------------------------------------------------------------------- */
+
+.footertopmargin {
+  height: 10vh;
+}
+
+.footer-container {
+  background-color: #606e77;
+  text-align: center;
+  padding: 5vh 0;
+  bottom: 0;
+  width: 100vw;
+  position: static;
+  margin-top: 0vh;
+}
+
+.footer-container p {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-family: "Lora-Regular";
+  color: white;
+  font-size: 2vh;
+}
+
+.social-icon {
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  /* margin-left: 2vw;
+    margin-right: 2vw;  */
+  margin-bottom: 5vh;
+}
+
+.social-icon li {
+  align-items: center;
+  display: inline;
+  width: 100px;
+  color: white;
+  font-size: 2.3vh;
+  width: 2%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.social-icon li a {
+  display: inline;
+  color: #b1b9c6;
+  font-size: 1.5em;
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+  transition: color 0.3s, box-shadow 0.3s;
+}
+
+.social-icon li a:hover {
+  color: #fff;
+  box-shadow: 0 4px 8px #696e75(0, 0, 0, 0.2);
+}
+/* SELF-CARE CONTENT -----------------------------------------------------------------------------------------------------*/
+
+.guia-lunar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+}
+
+.guia-lunar,
+.guia-ayurveda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.guia-ayurveda {
+  margin-top: 12vh;
+}
+
+.guia-lunar__content,
+.guia-ayurveda__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6vw;
+}
+.guia-lunar__content > *:first-child,
+.guia-ayurveda__content > *:first-child {
+  flex-grow: 1;
+}
+
+.guia-lunar2 {
+  width: 20vw;
+}
+
+.description,
+.astrologias-description {
+  margin: 5vh 0;
+  font-size: 3vh;
+  font-family: "Lora-Regular";
+  font-weight: normal;
+  color: #4a4a4a;
+  line-height: 5vh;
+  letter-spacing: 0.01em;
+  padding: 0 vw;
+}
+
+.sesiones-description {
+  margin: 5vh 0;
+  font-size: 3vh;
+  font-family: "Lora-Regular";
+  font-weight: normal;
+  color: #4a4a4a;
+  line-height: 5vh;
+  letter-spacing: 0.01em;
+  padding: 0 vw;
+  text-align: justify;
+}
+
+.diseno-impulso__content {
+  margin: 5vh 0;
+  font-size: 3vh;
+  font-family: "Lora-Regular";
+  font-weight: normal;
+  color: #4a4a4a;
+  line-height: 5vh;
+  letter-spacing: 0.01em;
+  padding: 0 vw;
+  text-align: justify;
+}
+
+.proposito-description {
+  margin: 5vh 0;
+  font-size: 3vh;
+  font-family: "Lora-Regular";
+  font-weight: normal;
+  color: #4a4a4a;
+  line-height: 5vh;
+  letter-spacing: 0.01em;
+  padding: 0 vw;
+  text-align: justify;
+}
+
+.impulso-description {
+  margin-top: 5vw;
+  margin-bottom: 5vh;
+}
+/* TITLES ----------------------------------------------------------------------------------------------------------*/
+
+.informes-title,
+.diseno-impulso__title,
+.sesiones-title,
+.tzolkin-title,
+.d-humano__title,
+.astrologias-title,
+.guia-lunar__title {
+  font-size: 4.5vh;
+  font-family: "Cinzel-Medium";
+  font-style: normal;
+  font-weight: 400;
+  color: #778690;
+  text-align: center;
+  margin-top: 3vh;
+  line-height: 6.5vh;
+}
+
+.guia-ayurveda__title {
+  font-size: 4.5vh;
+  font-family: "Cinzel-Medium";
+  font-style: normal;
+  font-weight: 400;
+  color: #778690;
+  text-align: center;
+  margin-top: 5vh;
+  line-height: 6.5vh;
+}
+
+/* BOTONES ----------------------------------------------------------------------------------------------------------*/
+
+.boton-lunar,
+.boton-astrologia,
+.boton-guia-hd,
+.boton-consulta-hd,
+.boton-tzolkin,
+.boton-consulta-sesiones,
+.boton-consulta-diseño,
+.boton-consulta-impulso,
+.boton-enviar,
+.boton-serparte,
+.boton-gracias {
+  margin: 0 auto;
+  background-color: #778690;
+  border: none;
+  width: max-content;
+  border-radius: 12vw;
+  margin-top: 2vh;
+  padding: 2vh 0;
+}
+
+.boton-lunar a,
+.boton-astrologia a,
+.boton-guia-hd a,
+.boton-consulta-hd a,
+.boton-tzolkin a,
+.boton-consulta-sesiones a,
+.boton-consulta-diseño a,
+.boton-consulta-impulso a,
+.boton-enviar a,
+.boton-serparte a,
+.boton-gracias a {
+  padding: 2vh 5vw;
+  color: #fff;
+  font-family: "Cinzel-Medium";
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+/* ASTROLOGÍAS ----------------------------------------------------------------------------------------------------------*/
+
+.containerdts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.div-astro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.astro {
+  width: 38vw;
+}
+.astrologias {
+  margin-top: 15vh;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-left: 2vw;
+  margin-right: vw;
+}
+.astrologias-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.guia-lunar__content > *:first-child,
+.guia-ayurveda__content > *:first-child {
+  flex-grow: 1;
+}
+/* DISEÑO HUMANO ---------------------------------------------------------------------------------------------------------- */
+
+.cuerpodh {
+  width: 33vw;
+}
+
+.ruedadh {
+  width: 33vw;
+  margin-left: 5vw;
+}
+
+.d-humano {
+  margin-top: 14vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+}
+.d-humano__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.informes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  margin-top: 10vh;
+}
+
+.informes-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TZOLKIN---------------------------------------------------------------------------------------------------------- */
+
+.ruedatzolkin {
+  width: 33vw;
+  margin-right: 7vw;
+}
+
+.tzolkin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15vh;
+}
+.tzolkin-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* SESIONES ----------------------------------------------------------------------------------------------------------------*/
+
+.sesiones-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 7vw;
+  margin-left: 7vw;
+  margin-top: 15vh;
+}
+
+.diseno-impulso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+}
+.diseno-impulso__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 7vw;
+  margin-left: 7vw;
+}
+
+/* COMUNIDAD----------------------------------------------------------------------------------------------------------- */
+
+.Comunidad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.3rem;
+  height: auto;
+  text-align: center;
+  background-color: #ebede7;
+}
+.carpa {
+  width: 150px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+.comunidad-title {
+  font-size: 2.4em;
+  font-family: "Cinzel-Medium";
+  font-weight: 400;
+  color: #778690;
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 450px;
+}
+.comunidad-p {
+  font-size: 15px;
+  font-family: "Lora-Regular";
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 1rem;
+}
+
+/* DESCARGAR FORM --------------------------------------------------------------------------------------- */
+
+.mapa {
+  width: 150px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+/* SUSCRIPCIÓN -------------------------------------------------------------------------------------------*/
+.suscripción-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-family: "Cinzel-Medium";
+  color: #8f8e8e;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  align-self: center;
+  width: 365px;
+}
+
+.form-title {
+  font-size: 20px;
+  font-family: "Lora";
+  font-weight: normal;
+  color: #606e77;
+  text-align: center;
+  width: 100%;
+  margin-top: 1.3rem;
+  margin-bottom: 4.6rem;
+}
+
+label {
+  font-size: 1.4em;
+  font-family: "Cinzel-Medium";
+  color: #8f8e8e;
+  letter-spacing: 0.3cap;
+  display: inline-block;
+}
+
+input {
+  text-align: center;
+  background-color: #dddfd8;
+  font-family: "Lora-Italic";
+  font-size: 16px;
+  border: 1px solid #dddfd8;
+  border-radius: 5px;
+  padding: 10px;
+  width: 365px;
+  outline: #b1b9c6;
+}
+
+input,
+textarea {
+  color: #606e77;
+  font-weight: normal;
+}
+
+::placeholder {
+  font-family: "Lora-Italic";
+  font-size: 16px;
+  color: #8f8e8e;
+  text-align: center;
+  padding: 10px;
+}
+
+/* BIENVENIDA ------------------------------------------------------------------------------------------------*/
+
+.bienvenida-title {
+  text-align: center;
+  font-size: 1.7em;
+  font-family: "Lora-Italic";
+  font-weight: 400;
+  color: #778690;
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 480px;
+  line-height: normal;
+}
+
+.welcome-heart {
+  width: 135px;
+  margin-top: 1.3rem;
+  margin-bottom: 1vh;
+}
+
+.bienvenida-p {
+  font-size: 1.4em;
+  font-family: "Lora-Regular";
+  font-weight: 400;
+  color: #778690;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.welcome-logo {
+  width: 25vh;
+  margin-top: 0.7vh;
+  align-self: center;
+}
+
+/* FELICITACIONES -------------------------------------------------------------------------------------------------------*/
+
+.felicitaciones-title {
+  font-size: 2.4em;
+  font-family: "Cinzel-Medium";
+  font-weight: 400;
+  color: #778690;
+  text-align: center;
+  margin-top: 8vh;
+  width: 100%;
+  max-width: 450px;
+}
+
+.felicitaciones-p {
+  font-size: 17px;
+  font-family: "Lora-Regular";
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.bottle {
+  width: 350px;
+  margin-top: 0.7vh;
+}
+
+.stars {
+  width: 150px;
+  margin-top: 1vh;
+  margin-bottom: 0vh;
+}
+
+/* ENVIAR CONSULTA -----------------------------------------------------------------------------------------------------*/
+
+.cofre {
+  width: 150px;
+  margin-top: 6.5vh;
+  margin-bottom: 0vh;
+  align-self: center;
+}
+
+.consulta-container {
+  font-size: 1.2em;
+  font-family: "Cinzel-Medium";
+  color: #8f8e8e;
+}
+
+.consulta-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+}
+
+.consulta-title {
+  font-size: 18px;
+  font-family: "Lora-Italic";
+  font-weight: normal;
+  color: #606e77;
+  text-align: center;
+  width: 365px;
+  margin-top: 0.7vh;
+  margin-bottom: 3.4vh;
+}
+
+textarea {
+  height: 186px;
+  background-color: #dddfd8;
+  font-family: "Lora-Italic";
+  font-size: 16px;
+  border: 1px solid #dddfd8;
+  border-radius: 5px;
+  width: 365px;
+  outline: #b1b9c6;
+  resize: none;
+  padding: 10px;
+}
+
+textarea ::placeholder {
+  font-family: "Lora-Italic";
+  font-size: 16px;
+  color: #8f8e8e;
+  text-align: center;
+  padding: 10px;
+}
+
+/* GRACIAS CONSULTA ------------------------------------------------------------------------------------------------------*/
+
+.heart {
+  width: 150px;
+  margin-top: 6.5vh;
+  margin-bottom: 1vh;
+  align-self: center;
+}
+
+.gracias-title {
+  text-align: center;
+  font-size: 2.4em;
+  font-family: "Cinzel-Medium";
+  font-weight: 400;
+  color: #778690;
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+.gracias-p {
+  font-size: 20px;
+  font-family: "Lora-Regular";
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* // MEDIA QUERIES */
+@media screen and (max-aspect-ratio: 2/1) {
+  .main-home {
+    margin: 10vh 10vw;
+  }
+  .home-title{
+    font-size: 4vh;
+  }
+  .subtitle {
+    font-size: 3vh;
+  }
+}
+/*     ---------------------------------------------- */
+
+@media screen and (max-aspect-ratio: 5/6) {
+  .main-home {
+    margin: 7vh;
+  }
+  .home-title{
+    font-size: 3.6vh;
+  }
+  .subtitle {
+    font-size: 2.8vh;
+  }
+  .home-p {
+    font-size: 2.6vh;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-aspect-ratio: 4/5) {
+  .main-home {
+    margin: 6vh;
+  }
+  .home-title{
+    font-size: 3.4vh;
+  }
+  .subtitle {
+    font-size: 2.8vh;
+  }
+  .home-p {
+    font-size: 2.6vh;
+    margin: 2vh 2vw;
+    width: 76vw;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-aspect-ratio: 9/16) {
+  .main-home {
+    margin: 0vh;
+  }
+  .home-title{
+    font-size: 3vh;
+  }
+  .subtitle {
+    font-size: 2.8vh;
+  }
+  .home-p {
+    font-size: 2.4vh;
+    width: 73vw;
+    text-align: center;
+  }
+}
+
+/* SELF CARE------------ */
+@media screen and (max-aspect-ratio: 1.5/1) {
+  .luna {
+    transform: scale(0.8);
+  }
+  .ayurveda {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-aspect-ratio: 3/2) {
+  .guia-lunar, .guia-ayurveda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+  .guia-lunar__content{
+    margin:0;
+  }
+  .guia-ayurveda__content{
+      margin:0;
+    }
+   .guia-lunar {
+    margin-top: 4vh;
+  }
+  .luna {
+    width: 26vw;
+    margin-bottom: 1.5vh;
+  }
+  .ayurveda {
+    width: 26vw;
+    margin-bottom: 1.5vh;
+  }
+  .description {
+    text-align: justify;
+  }
+  .boton .boton-lunar, .boton-lunar a {
+    font-size: 1.8vw;
+    border-radius: 12vw;
+    margin-top: 2vh;
+    padding: 2.4vh;
+  }
+}
+@media screen and (max-aspect-ratio: 9/10) {
+  .luna,.ayurveda {
+    width: 25vw;
+  }
+  .guia-lunar__title, .guia-ayurveda__title {
+    font-size: 4.2vh;
+  }
+  .description {
+  font-size: 3vh;
+  }
+  .boton .boton-lunar, .boton-lunar a {
+    font-size: 3vw;
+    border-radius: 12vw;
+    margin-top: 2vh;
+    padding: 2.4vh;
+  }}
+
+  @media screen and (max-aspect-ratio: 8/10) {
+        
+  .guia-ayurveda__title, .guia-lunar__title {
+    font-size: 3.4vh;
+      }
+    }
+
+    @media screen and (max-aspect-ratio: 7/10) {
+        .luna {
+          width: 20vw;
+        }
+        .ayurveda{
+          width: 30vw;
+        }
+      .guia-ayurveda__title, .guia-lunar__title {
+        font-size: 3vh;
+          }
+        .description {
+          font-size: 3vh;
+        }
+        .boton .boton-lunar, .boton-lunar a {
+            font-size: 4vw;
+            border-radius: 12vw;
+            margin-top: 2vh;
+            padding: 2.4vh;
+        }
+}
+
+/* ASTRO MEDIA QUERIES */
+
+@media screen and (max-aspect-ratio: 30/20) {
+  .astrologias {
+    margin-left: 0;
+    margin-top: 5vh;
+  }
+}
+@media screen and (max-aspect-ratio: 4/3) {
+  .astrologias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .astro {
+    width: 25vw;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+  }
+  .boton-astrologia a{
+    width: 5vw;
+  }
+}
+
+@media screen and (max-aspect-ratio: 14/20) {
+
+  .astro {
+    width: 25vw;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+  }
+  .astrologias-title {
+    font-size: 3vh;
+    margin-top: 0;
+    margin-bottom: 0vh;
+  }
+  .boton-astrologia a {
+    font-size: 4vw;
+    border-radius: 12vw;
+    margin-top: 2vh;
+    padding: 2.4vh;
+}
+.astrologias-description {
+  font-size: 2.4vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-top: 2vh;
+  text-align: center;
+  line-height: 4vh;
+}
+}
+/* DISEÑO HUMANO------------ */
+@media screen and (max-aspect-ratio: 4/3) {
+  .cuerpodh {
+    width: 30vw;
+  }
+}
+@media screen and (max-aspect-ratio: 38/23) {
+  .d-humano {
+    margin-top: 3vh;
+  }
+  .d-humano__title, .informes-title {
+    font-size: 4vh;
+  }
+}
+
+@media screen and (max-aspect-ratio: 28/23) {
+  .d-humano, .informes {
+    display: flex;
+    flex-direction: column;
+  }
+  .ruedadh {
+    margin-left: 0;
+    margin-bottom: 4vh;
+  }
+ 
+  .boton-consulta-hd, .boton-guia-hd, .boton-consulta-hd a, .boton-guia-hd a {
+      font-size: 3vh;
+      padding: 2vh 3vw;
+    }
+  }
+  @media screen and (max-aspect-ratio: 18/23) {
+    .d-humano__title, .informes-title {
+      font-size: 4vw;
+    }
+    .boton-consulta-hd, .boton-guia-hd, .boton-consulta-hd a, .boton-guia-hd a {
+      font-size: 2.4vh;
+      padding: 2vh 3vw;
+    }
+  }
+
+  @media screen and (max-aspect-ratio: 16/23) {
+    .d-humano__title, .informes-title {
+      font-size: 5vw;
+      line-height: 5vh;
+    }
+    .informes-content {
+      padding: 0px 50px;
+    }
+  }
+  @media screen and (max-aspect-ratio: 12/24) {
+    .description {
+      font-size: 2.3vh;
+      line-height: 3vh;
+    }
+  }
+
+/* TZOLKIN----- */
+
+@media screen and (max-aspect-ratio: 4/3) {
+.tzolkin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vh;
+}
+.ruedatzolkin{
+  margin-bottom: 4vh;
+  margin-right: 0;
+  width: 25vw;
+}
+.tzolkin-content {
+  margin-left: 7vw;
+  margin-right: 7vw;
+} 
+.boton-tzolkin, .boton-tzolkin a {
+  font-size: 2.4vh;
+  padding: 2vh 3vw;
+}
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+  .tzolkin-title {
+    font-size: 4vh;
+    margin-top: 1vh;
+  }
+  
+  .ruedatzolkin{
+    margin-bottom: 4vh;
+    margin-right: 0;
+    width: 22vw;
+  }
+  .description{
+    margin-top: 2vh;
+  }
+}
+@media screen and (max-aspect-ratio: 4.5/5) {
+  .tzolkin {
+    margin-top: 2vh;
+  }
+  .tzolkin-title {
+    font-size: 4vh;
+    margin-top: 1vh;
+  }
+  
+  .ruedatzolkin{
+    margin-bottom: 4vh;
+    margin-right: 0;
+    width: 22vw;
+  }
+  .description{
+    margin-top: 2vh;
+  }
+}
+
+@media screen and (max-aspect-ratio: 4/5) {
+  .tzolkin {
+    margin-top: 2vh;
+  }
+  .tzolkin-title {
+    font-size: 3.2vh;
+    margin-top: 1vh;
+  }
+  
+  .ruedatzolkin{
+    margin-bottom: 4vh;
+    margin-right: 0;
+    width: 22vw;
+  }
+  .description{
+    font-size: 2.7vh;
+    margin-top: 2vh;
+  }
+}
+
+@media screen and (max-aspect-ratio: 4/3) {
+  .sesiones-content {
+margin-top: 3vh;
+  }
+}
+@media screen and (max-aspect-ratio: 6/5) {
+  .boton-consulta-impulso, .boton-consulta-diseño, .boton-consulta-sesiones {
+      font-size: 3vh;
+    
+    }
+    .boton-consulta-impulso a, .boton-consulta-diseño a, .boton-consulta-sesiones a {
+      font-size: 2.4vh;
+      padding: 2vh 3vw;
+  }
+  }
+@media screen and (max-aspect-ratio: 40/53) {
+  .sesiones-content {
+    margin-left: 15vhw;
+    margin-right: 15vhw;
+    margin-top: 0vh;
+  }
+  .sesiones-description {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-aspect-ratio: 3/4) {
+ .sesiones-title, .diseno-impulso__title {
+  font-size: 4.5vw;
+ }
+  .sesiones-description, .proposito-description, .diseno-impulso__content, .impulso-description {
+    font-size: 3.5vw;
+    line-height: 4vh;
+  }
+}
+@media screen and (max-aspect-ratio: 108/204) {
+  .sesiones-title, .diseno-impulso__title {
+   font-size: 4.5vw;
+   margin-top: 2vh;
+  }
+   .sesiones-description, .proposito-description, .diseno-impulso__content, .impulso-description {
+     font-size: 4vw;
+     line-height: 3.3vh;
+     margin-top: 2vh;
+   }
+ }

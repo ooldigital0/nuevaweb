@@ -1,0 +1,37 @@
+.boton-lunar,
+.boton-astrologia,
+.boton-guia-hd,
+.boton-consulta-hd,
+.boton-tzolkin,
+.boton-consulta-sesiones,
+.boton-consulta-diseño,
+.boton-consulta-impulso,
+.boton-enviar,
+.boton-serparte,
+.boton-gracias {
+  margin: 0 auto;
+  background-color: font-color-primary;
+  border: none;
+  width: max-content;
+  border-radius: 12vw;
+  margin-top: 2vh;
+  padding: 2vh 0;
+}
+
+.boton-lunar a,
+.boton-astrologia a,
+.boton-guia-hd a,
+.boton-consulta-hd a,
+.boton-tzolkin a,
+.boton-consulta-sesiones a,
+.boton-consulta-diseño a,
+.boton-consulta-impulso a,
+.boton-enviar a,
+.boton-serparte a,
+.boton-gracias a {
+  padding: 2vh 5vw;
+  color: #fff;
+  font-family: $font-tertiary;
+  font-size: 1.5vw;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+
+.mapa {
+    width: 150px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+  
+  /* SUSCRIPCIÓN -------------------------------------------------------------------------------------------*/
+  .suscripción-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: $font-tertiary;
+    color: #8f8e8e;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form {
+    align-self: center;
+    width: 365px;
+  }
+  
+  .form-title {
+    font-size: 20px;
+    font-family: "Lora";
+    font-weight: normal;
+    color: bg-color-secondary;
+    text-align: center;
+    width: 100%;
+    margin-top: 1.3rem;
+    margin-bottom: 4.6rem;
+  }
+  
+  label {
+    font-size: 1.4em;
+    font-family: $font-tertiary;
+    color: #8f8e8e;
+    letter-spacing: 0.3cap;
+    display: inline-block;
+  }
+  
+  input {
+    text-align: center;
+    background-color: #dddfd8;
+    font-family: $font-secondary;
+    font-size: 16px;
+    border: 1px solid #dddfd8;
+    border-radius: 5px;
+    padding: 10px;
+    width: 365px;
+    outline: bg-color-primary;
+  }
+  
+  input,
+  textarea {
+    color: bg-color-secondary;
+    font-weight: normal;
+  }
+  
+  ::placeholder {
+    font-family: $font-secondary;
+    font-size: 16px;
+    color: #8f8e8e;
+    text-align: center;
+    padding: 10px;
+  }

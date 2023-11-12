@@ -1,0 +1,35 @@
+
+.felicitaciones-title {
+    font-size: 2.4em;
+    font-family: $font-tertiary;
+    font-weight: 400;
+    color: font-color-primary;
+    text-align: center;
+    margin-top: 8vh;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .felicitaciones-p {
+    font-size: 17px;
+    font-family: $font-primary;
+    font-weight: 400;
+    color:  text-color-primary;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  .bottle {
+    width: 350px;
+    margin-top: 0.7vh;
+  }
+  
+  .stars {
+    width: 150px;
+    margin-top: 1vh;
+    margin-bottom: 0vh;
+  }
+  

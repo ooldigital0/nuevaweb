@@ -1,0 +1,35 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora:ital@0;1&display=swap');
+* {
+    font-family: 'Cinzel', serif;
+    font-family: 'Lora', serif;
+}
+
+@font-face {
+    font-family: "Lora-Regular";
+    src: url(../img/fonts/Lora-Regular.ttf);
+}
+@font-face {
+    font-family: "Lora-Italic";
+    src: url(../img/fonts/Lora-Italic.ttf);
+}
+@font-face {
+    font-family: $font-tertiary;
+    src: url(../img/fonts/Cinzel-Medium.ttf);
+}
+
+$font-primary: 'Lora-Regular';
+$font-secondary:'Lora-Italic';
+$font-tertiary: 'Cinzel-Medium';
+
+
+// COLORES
+$colors: (
+    text-color-primary: #4A4A4A,
+    text-color-secondary: #ebede6,
+    bg-color: #EBEDE7,
+    bg-color-primary: #b1b9c6,
+    bg-color-secondary: #606e77,
+    bg-color-alternative: #e4cdbb,
+    font-color-primary: #778690
+);
